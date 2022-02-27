@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Source Serif Pro', serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+#page {
+    min-height: 200px;
+    width: 60%;
+    min-width: 600px;
+    background: whitesmoke;
+    margin: 50px auto;
+    padding: 30px;
+    /* color: #27aae1; */
+    color: blue;
+}
+
+/* HEADER */
+.photo {
+    width: 15%;
+    min-width: 130px;
+    float: right;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.contact-info-box {
+    width: 70.9%;
+    display: inline-block;
+}
+
+.name {
+    margin-bottom: -5px;
+}
+
+.job-title {
+    display: inline-block;
+}
+
+.contact-details {
+    background: #27aae1;
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+/* EDUCATION */
+
+#education h3 {
+    border: 1px solid #d3d3d3;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 30px 0 10px;
+}
+
+#education table td {
+    padding: 5px;
+    font-size: 14px;
+    color: #000;
+}
+
+#education table tr.school-1 td:first-child {
+    width: 120px;
+    color: gray;
+    padding-bottom: 25px;
+}
+
+#education table tr.school-2 td:first-child {
+    padding-bottom: 25px;
+}
+
+/* WORK EXPERIENCE */
+
+#work h3 {
+    border: 1px solid #d3d3d3;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 30px 0 10px;
+}
+
+#work table td {
+    padding: 5px;
+    font-size: 14px;
+    color: #000;
+}
+
+#work table tr.work-1 td:first-child {
+    width: 120px;
+    color: gray;
+    padding-bottom: 25px;
+}
+
+#work table tr.work-1 td {
+    padding-bottom: 25px;
+}
+
+#work table tr.work-2 td:first-child {
+    width: 120px;
+    color: gray;
+}
+
+/* RESEARCH EXPERIENCE */
+#research h3 {
+    border: 1px solid #d3d3d3;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 30px 0 10px;
+}
+
+#research p {
+    padding: 0 5px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #000;
+}
+
+/* TECHNICAL SKILLS */
+
+#tech-skills h3, #projects h3 {
+    border: 1px solid #d3d3d3;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 30px 0 10px;
+}
+
+#tech-skills table td, #projects table td {
+    padding: 8px;
+    font-size: 15px;
+    color: #000;
+}
+
+#tech-skills table tr td:first-child {
+    width: 200px;
+}
+
+#tech-skills table tr td:nth-child(2), #projects table tr td:nth-child(2) {
+    width: 300px;
+}
+
+/* PROJECTS */
+
+#projects table tr td:first-child {
+    width: 300px;
+}
